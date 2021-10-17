@@ -52,10 +52,10 @@ RM = "E:\Program Files\JetBrains\CLion 2021.2.2\bin\cmake\win\bin\cmake.exe" -E 
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = C:\Users\gdari\Desktop\Important\School\GitHub\GitHubProjects\OperatingSystems\C\ProducerConsumerPThread
+CMAKE_SOURCE_DIR = C:\Users\gdari\Desktop\Important\School\GitHub\GitHubProjects\CSCI-460-Operating-Systems\C\ProducerConsumerPThread
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = C:\Users\gdari\Desktop\Important\School\GitHub\GitHubProjects\OperatingSystems\C\ProducerConsumerPThread\cmake-build-debug
+CMAKE_BINARY_DIR = C:\Users\gdari\Desktop\Important\School\GitHub\GitHubProjects\CSCI-460-Operating-Systems\C\ProducerConsumerPThread\cmake-build-debug
 
 # Include any dependencies generated for this target.
 include CMakeFiles/ProducerConsumerPThread.dir/depend.make
@@ -67,16 +67,16 @@ include CMakeFiles/ProducerConsumerPThread.dir/flags.make
 
 CMakeFiles/ProducerConsumerPThread.dir/main.c.obj: CMakeFiles/ProducerConsumerPThread.dir/flags.make
 CMakeFiles/ProducerConsumerPThread.dir/main.c.obj: ../main.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\gdari\Desktop\Important\School\GitHub\GitHubProjects\OperatingSystems\C\ProducerConsumerPThread\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/ProducerConsumerPThread.dir/main.c.obj"
-	"E:\Program Files\mingw-w64\x86_64-8.1.0-posix-seh-rt_v6-rev0\mingw64\bin\gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\ProducerConsumerPThread.dir\main.c.obj -c C:\Users\gdari\Desktop\Important\School\GitHub\GitHubProjects\OperatingSystems\C\ProducerConsumerPThread\main.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\gdari\Desktop\Important\School\GitHub\GitHubProjects\CSCI-460-Operating-Systems\C\ProducerConsumerPThread\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/ProducerConsumerPThread.dir/main.c.obj"
+	"E:\Program Files\mingw-w64\x86_64-8.1.0-posix-seh-rt_v6-rev0\mingw64\bin\gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\ProducerConsumerPThread.dir\main.c.obj -c C:\Users\gdari\Desktop\Important\School\GitHub\GitHubProjects\CSCI-460-Operating-Systems\C\ProducerConsumerPThread\main.c
 
 CMakeFiles/ProducerConsumerPThread.dir/main.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/ProducerConsumerPThread.dir/main.c.i"
-	"E:\Program Files\mingw-w64\x86_64-8.1.0-posix-seh-rt_v6-rev0\mingw64\bin\gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\gdari\Desktop\Important\School\GitHub\GitHubProjects\OperatingSystems\C\ProducerConsumerPThread\main.c > CMakeFiles\ProducerConsumerPThread.dir\main.c.i
+	"E:\Program Files\mingw-w64\x86_64-8.1.0-posix-seh-rt_v6-rev0\mingw64\bin\gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\gdari\Desktop\Important\School\GitHub\GitHubProjects\CSCI-460-Operating-Systems\C\ProducerConsumerPThread\main.c > CMakeFiles\ProducerConsumerPThread.dir\main.c.i
 
 CMakeFiles/ProducerConsumerPThread.dir/main.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/ProducerConsumerPThread.dir/main.c.s"
-	"E:\Program Files\mingw-w64\x86_64-8.1.0-posix-seh-rt_v6-rev0\mingw64\bin\gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\gdari\Desktop\Important\School\GitHub\GitHubProjects\OperatingSystems\C\ProducerConsumerPThread\main.c -o CMakeFiles\ProducerConsumerPThread.dir\main.c.s
+	"E:\Program Files\mingw-w64\x86_64-8.1.0-posix-seh-rt_v6-rev0\mingw64\bin\gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\gdari\Desktop\Important\School\GitHub\GitHubProjects\CSCI-460-Operating-Systems\C\ProducerConsumerPThread\main.c -o CMakeFiles\ProducerConsumerPThread.dir\main.c.s
 
 # Object files for target ProducerConsumerPThread
 ProducerConsumerPThread_OBJECTS = \
@@ -90,7 +90,7 @@ ProducerConsumerPThread.exe: CMakeFiles/ProducerConsumerPThread.dir/build.make
 ProducerConsumerPThread.exe: CMakeFiles/ProducerConsumerPThread.dir/linklibs.rsp
 ProducerConsumerPThread.exe: CMakeFiles/ProducerConsumerPThread.dir/objects1.rsp
 ProducerConsumerPThread.exe: CMakeFiles/ProducerConsumerPThread.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Users\gdari\Desktop\Important\School\GitHub\GitHubProjects\OperatingSystems\C\ProducerConsumerPThread\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking C executable ProducerConsumerPThread.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Users\gdari\Desktop\Important\School\GitHub\GitHubProjects\CSCI-460-Operating-Systems\C\ProducerConsumerPThread\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking C executable ProducerConsumerPThread.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\ProducerConsumerPThread.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -102,6 +102,6 @@ CMakeFiles/ProducerConsumerPThread.dir/clean:
 .PHONY : CMakeFiles/ProducerConsumerPThread.dir/clean
 
 CMakeFiles/ProducerConsumerPThread.dir/depend:
-	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" C:\Users\gdari\Desktop\Important\School\GitHub\GitHubProjects\OperatingSystems\C\ProducerConsumerPThread C:\Users\gdari\Desktop\Important\School\GitHub\GitHubProjects\OperatingSystems\C\ProducerConsumerPThread C:\Users\gdari\Desktop\Important\School\GitHub\GitHubProjects\OperatingSystems\C\ProducerConsumerPThread\cmake-build-debug C:\Users\gdari\Desktop\Important\School\GitHub\GitHubProjects\OperatingSystems\C\ProducerConsumerPThread\cmake-build-debug C:\Users\gdari\Desktop\Important\School\GitHub\GitHubProjects\OperatingSystems\C\ProducerConsumerPThread\cmake-build-debug\CMakeFiles\ProducerConsumerPThread.dir\DependInfo.cmake --color=$(COLOR)
+	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" C:\Users\gdari\Desktop\Important\School\GitHub\GitHubProjects\CSCI-460-Operating-Systems\C\ProducerConsumerPThread C:\Users\gdari\Desktop\Important\School\GitHub\GitHubProjects\CSCI-460-Operating-Systems\C\ProducerConsumerPThread C:\Users\gdari\Desktop\Important\School\GitHub\GitHubProjects\CSCI-460-Operating-Systems\C\ProducerConsumerPThread\cmake-build-debug C:\Users\gdari\Desktop\Important\School\GitHub\GitHubProjects\CSCI-460-Operating-Systems\C\ProducerConsumerPThread\cmake-build-debug C:\Users\gdari\Desktop\Important\School\GitHub\GitHubProjects\CSCI-460-Operating-Systems\C\ProducerConsumerPThread\cmake-build-debug\CMakeFiles\ProducerConsumerPThread.dir\DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/ProducerConsumerPThread.dir/depend
 
