@@ -128,29 +128,125 @@ ProducerConsumerPThread/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\ProducerConsumerPThread.dir\build.make CMakeFiles/ProducerConsumerPThread.dir/build
 .PHONY : ProducerConsumerPThread/fast
 
-main.obj: main.c.obj
-.PHONY : main.obj
+consumerTwo.obj: consumerTwo.c.obj
+.PHONY : consumerTwo.obj
 
 # target to build an object file
-main.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\ProducerConsumerPThread.dir\build.make CMakeFiles/ProducerConsumerPThread.dir/main.c.obj
-.PHONY : main.c.obj
+consumerTwo.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\ProducerConsumerPThread.dir\build.make CMakeFiles/ProducerConsumerPThread.dir/consumerTwo.c.obj
+.PHONY : consumerTwo.c.obj
 
-main.i: main.c.i
-.PHONY : main.i
+consumerTwo.i: consumerTwo.c.i
+.PHONY : consumerTwo.i
 
 # target to preprocess a source file
-main.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\ProducerConsumerPThread.dir\build.make CMakeFiles/ProducerConsumerPThread.dir/main.c.i
-.PHONY : main.c.i
+consumerTwo.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\ProducerConsumerPThread.dir\build.make CMakeFiles/ProducerConsumerPThread.dir/consumerTwo.c.i
+.PHONY : consumerTwo.c.i
 
-main.s: main.c.s
-.PHONY : main.s
+consumerTwo.s: consumerTwo.c.s
+.PHONY : consumerTwo.s
 
 # target to generate assembly for a file
-main.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\ProducerConsumerPThread.dir\build.make CMakeFiles/ProducerConsumerPThread.dir/main.c.s
-.PHONY : main.c.s
+consumerTwo.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\ProducerConsumerPThread.dir\build.make CMakeFiles/ProducerConsumerPThread.dir/consumerTwo.c.s
+.PHONY : consumerTwo.c.s
+
+conumserOne.obj: conumserOne.c.obj
+.PHONY : conumserOne.obj
+
+# target to build an object file
+conumserOne.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\ProducerConsumerPThread.dir\build.make CMakeFiles/ProducerConsumerPThread.dir/conumserOne.c.obj
+.PHONY : conumserOne.c.obj
+
+conumserOne.i: conumserOne.c.i
+.PHONY : conumserOne.i
+
+# target to preprocess a source file
+conumserOne.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\ProducerConsumerPThread.dir\build.make CMakeFiles/ProducerConsumerPThread.dir/conumserOne.c.i
+.PHONY : conumserOne.c.i
+
+conumserOne.s: conumserOne.c.s
+.PHONY : conumserOne.s
+
+# target to generate assembly for a file
+conumserOne.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\ProducerConsumerPThread.dir\build.make CMakeFiles/ProducerConsumerPThread.dir/conumserOne.c.s
+.PHONY : conumserOne.c.s
+
+doublyLinkedList.obj: doublyLinkedList.c.obj
+.PHONY : doublyLinkedList.obj
+
+# target to build an object file
+doublyLinkedList.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\ProducerConsumerPThread.dir\build.make CMakeFiles/ProducerConsumerPThread.dir/doublyLinkedList.c.obj
+.PHONY : doublyLinkedList.c.obj
+
+doublyLinkedList.i: doublyLinkedList.c.i
+.PHONY : doublyLinkedList.i
+
+# target to preprocess a source file
+doublyLinkedList.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\ProducerConsumerPThread.dir\build.make CMakeFiles/ProducerConsumerPThread.dir/doublyLinkedList.c.i
+.PHONY : doublyLinkedList.c.i
+
+doublyLinkedList.s: doublyLinkedList.c.s
+.PHONY : doublyLinkedList.s
+
+# target to generate assembly for a file
+doublyLinkedList.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\ProducerConsumerPThread.dir\build.make CMakeFiles/ProducerConsumerPThread.dir/doublyLinkedList.c.s
+.PHONY : doublyLinkedList.c.s
+
+producerOne.obj: producerOne.c.obj
+.PHONY : producerOne.obj
+
+# target to build an object file
+producerOne.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\ProducerConsumerPThread.dir\build.make CMakeFiles/ProducerConsumerPThread.dir/producerOne.c.obj
+.PHONY : producerOne.c.obj
+
+producerOne.i: producerOne.c.i
+.PHONY : producerOne.i
+
+# target to preprocess a source file
+producerOne.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\ProducerConsumerPThread.dir\build.make CMakeFiles/ProducerConsumerPThread.dir/producerOne.c.i
+.PHONY : producerOne.c.i
+
+producerOne.s: producerOne.c.s
+.PHONY : producerOne.s
+
+# target to generate assembly for a file
+producerOne.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\ProducerConsumerPThread.dir\build.make CMakeFiles/ProducerConsumerPThread.dir/producerOne.c.s
+.PHONY : producerOne.c.s
+
+producerTwo.obj: producerTwo.c.obj
+.PHONY : producerTwo.obj
+
+# target to build an object file
+producerTwo.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\ProducerConsumerPThread.dir\build.make CMakeFiles/ProducerConsumerPThread.dir/producerTwo.c.obj
+.PHONY : producerTwo.c.obj
+
+producerTwo.i: producerTwo.c.i
+.PHONY : producerTwo.i
+
+# target to preprocess a source file
+producerTwo.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\ProducerConsumerPThread.dir\build.make CMakeFiles/ProducerConsumerPThread.dir/producerTwo.c.i
+.PHONY : producerTwo.c.i
+
+producerTwo.s: producerTwo.c.s
+.PHONY : producerTwo.s
+
+# target to generate assembly for a file
+producerTwo.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\ProducerConsumerPThread.dir\build.make CMakeFiles/ProducerConsumerPThread.dir/producerTwo.c.s
+.PHONY : producerTwo.c.s
 
 # Help Target
 help:
@@ -161,9 +257,21 @@ help:
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... ProducerConsumerPThread
-	@echo ... main.obj
-	@echo ... main.i
-	@echo ... main.s
+	@echo ... consumerTwo.obj
+	@echo ... consumerTwo.i
+	@echo ... consumerTwo.s
+	@echo ... conumserOne.obj
+	@echo ... conumserOne.i
+	@echo ... conumserOne.s
+	@echo ... doublyLinkedList.obj
+	@echo ... doublyLinkedList.i
+	@echo ... doublyLinkedList.s
+	@echo ... producerOne.obj
+	@echo ... producerOne.i
+	@echo ... producerOne.s
+	@echo ... producerTwo.obj
+	@echo ... producerTwo.i
+	@echo ... producerTwo.s
 .PHONY : help
 
 

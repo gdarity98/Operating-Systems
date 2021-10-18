@@ -74,7 +74,19 @@
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="C:/Users/gdari/Desktop/Important/School/GitHub/GitHubProjects/CSCI-460-Operating-Systems/C/ProducerConsumerPThread/main.c">
+		<Unit filename="C:/Users/gdari/Desktop/Important/School/GitHub/GitHubProjects/CSCI-460-Operating-Systems/C/ProducerConsumerPThread/consumerTwo.c">
+			<Option target="ProducerConsumerPThread"/>
+		</Unit>
+		<Unit filename="C:/Users/gdari/Desktop/Important/School/GitHub/GitHubProjects/CSCI-460-Operating-Systems/C/ProducerConsumerPThread/conumserOne.c">
+			<Option target="ProducerConsumerPThread"/>
+		</Unit>
+		<Unit filename="C:/Users/gdari/Desktop/Important/School/GitHub/GitHubProjects/CSCI-460-Operating-Systems/C/ProducerConsumerPThread/doublyLinkedList.c">
+			<Option target="ProducerConsumerPThread"/>
+		</Unit>
+		<Unit filename="C:/Users/gdari/Desktop/Important/School/GitHub/GitHubProjects/CSCI-460-Operating-Systems/C/ProducerConsumerPThread/producerOne.c">
+			<Option target="ProducerConsumerPThread"/>
+		</Unit>
+		<Unit filename="C:/Users/gdari/Desktop/Important/School/GitHub/GitHubProjects/CSCI-460-Operating-Systems/C/ProducerConsumerPThread/producerTwo.c">
 			<Option target="ProducerConsumerPThread"/>
 		</Unit>
 		<Unit filename="C:/Users/gdari/Desktop/Important/School/GitHub/GitHubProjects/CSCI-460-Operating-Systems/C/ProducerConsumerPThread/CMakeLists.txt">

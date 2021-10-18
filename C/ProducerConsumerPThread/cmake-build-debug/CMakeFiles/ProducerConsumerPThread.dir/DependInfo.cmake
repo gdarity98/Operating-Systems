@@ -8,7 +8,11 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_C
-  "C:/Users/gdari/Desktop/Important/School/GitHub/GitHubProjects/CSCI-460-Operating-Systems/C/ProducerConsumerPThread/main.c" "C:/Users/gdari/Desktop/Important/School/GitHub/GitHubProjects/CSCI-460-Operating-Systems/C/ProducerConsumerPThread/cmake-build-debug/CMakeFiles/ProducerConsumerPThread.dir/main.c.obj"
+  "C:/Users/gdari/Desktop/Important/School/GitHub/GitHubProjects/CSCI-460-Operating-Systems/C/ProducerConsumerPThread/consumerTwo.c" "C:/Users/gdari/Desktop/Important/School/GitHub/GitHubProjects/CSCI-460-Operating-Systems/C/ProducerConsumerPThread/cmake-build-debug/CMakeFiles/ProducerConsumerPThread.dir/consumerTwo.c.obj"
+  "C:/Users/gdari/Desktop/Important/School/GitHub/GitHubProjects/CSCI-460-Operating-Systems/C/ProducerConsumerPThread/conumserOne.c" "C:/Users/gdari/Desktop/Important/School/GitHub/GitHubProjects/CSCI-460-Operating-Systems/C/ProducerConsumerPThread/cmake-build-debug/CMakeFiles/ProducerConsumerPThread.dir/conumserOne.c.obj"
+  "C:/Users/gdari/Desktop/Important/School/GitHub/GitHubProjects/CSCI-460-Operating-Systems/C/ProducerConsumerPThread/doublyLinkedList.c" "C:/Users/gdari/Desktop/Important/School/GitHub/GitHubProjects/CSCI-460-Operating-Systems/C/ProducerConsumerPThread/cmake-build-debug/CMakeFiles/ProducerConsumerPThread.dir/doublyLinkedList.c.obj"
+  "C:/Users/gdari/Desktop/Important/School/GitHub/GitHubProjects/CSCI-460-Operating-Systems/C/ProducerConsumerPThread/producerOne.c" "C:/Users/gdari/Desktop/Important/School/GitHub/GitHubProjects/CSCI-460-Operating-Systems/C/ProducerConsumerPThread/cmake-build-debug/CMakeFiles/ProducerConsumerPThread.dir/producerOne.c.obj"
+  "C:/Users/gdari/Desktop/Important/School/GitHub/GitHubProjects/CSCI-460-Operating-Systems/C/ProducerConsumerPThread/producerTwo.c" "C:/Users/gdari/Desktop/Important/School/GitHub/GitHubProjects/CSCI-460-Operating-Systems/C/ProducerConsumerPThread/cmake-build-debug/CMakeFiles/ProducerConsumerPThread.dir/producerTwo.c.obj"
   )
 set(CMAKE_C_COMPILER_ID "GNU")
 

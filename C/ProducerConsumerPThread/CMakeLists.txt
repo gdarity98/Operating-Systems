@@ -3,4 +3,4 @@ project(ProducerConsumerPThread C)
 
 set(CMAKE_C_STANDARD 99)
 
-add_executable(ProducerConsumerPThread main.c)
+add_executable(ProducerConsumerPThread producerConsumerProgram.c)

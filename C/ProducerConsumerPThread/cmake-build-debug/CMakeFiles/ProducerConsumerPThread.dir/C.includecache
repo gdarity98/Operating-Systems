@@ -6,7 +6,11 @@
 
 #IncludeRegexTransform: 
 
-C:/Users/gdari/Desktop/Important/School/GitHub/GitHubProjects/CSCI-460-Operating-Systems/C/ProducerConsumerPThread/main.c
+C:/Users/gdari/Desktop/Important/School/GitHub/GitHubProjects/CSCI-460-Operating-Systems/C/ProducerConsumerPThread/doublyLinkedList.c
 stdio.h
+-
+stdlib.h
+-
+stdbool.h
 -
 

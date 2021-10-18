@@ -1,5 +1,9 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/ProducerConsumerPThread.dir/main.c.obj"
+  "CMakeFiles/ProducerConsumerPThread.dir/consumerTwo.c.obj"
+  "CMakeFiles/ProducerConsumerPThread.dir/conumserOne.c.obj"
+  "CMakeFiles/ProducerConsumerPThread.dir/doublyLinkedList.c.obj"
+  "CMakeFiles/ProducerConsumerPThread.dir/producerOne.c.obj"
+  "CMakeFiles/ProducerConsumerPThread.dir/producerTwo.c.obj"
   "ProducerConsumerPThread.exe"
   "ProducerConsumerPThread.exe.manifest"
   "ProducerConsumerPThread.pdb"
