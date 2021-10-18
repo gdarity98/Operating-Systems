@@ -47,19 +47,19 @@ cmake_force:
 SHELL = cmd.exe
 
 # The CMake executable.
-CMAKE_COMMAND = "E:\Program Files\JetBrains\CLion 2021.2.2\bin\cmake\win\bin\cmake.exe"
+CMAKE_COMMAND = "C:\Program Files\JetBrains\CLion 2021.2.2\bin\cmake\win\bin\cmake.exe"
 
 # The command to remove a file.
-RM = "E:\Program Files\JetBrains\CLion 2021.2.2\bin\cmake\win\bin\cmake.exe" -E rm -f
+RM = "C:\Program Files\JetBrains\CLion 2021.2.2\bin\cmake\win\bin\cmake.exe" -E rm -f
 
 # Escaping for special characters.
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = C:\Users\gdari\Desktop\Important\School\GitHub\GitHubProjects\CSCI-460-Operating-Systems\C\ProducerConsumerPThread
+CMAKE_SOURCE_DIR = C:\Users\gdari\Desktop\School\GitHub\CSCI-460-Operating-Systems\C\ProducerConsumerPThread
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = C:\Users\gdari\Desktop\Important\School\GitHub\GitHubProjects\CSCI-460-Operating-Systems\C\ProducerConsumerPThread\cmake-build-debug
+CMAKE_BINARY_DIR = C:\Users\gdari\Desktop\School\GitHub\CSCI-460-Operating-Systems\C\ProducerConsumerPThread\cmake-build-debug
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -67,7 +67,7 @@ CMAKE_BINARY_DIR = C:\Users\gdari\Desktop\Important\School\GitHub\GitHubProjects
 # Special rule for the target edit_cache
 edit_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
-	"E:\Program Files\JetBrains\CLion 2021.2.2\bin\cmake\win\bin\cmake.exe" -E echo "No interactive CMake dialog available."
+	"C:\Program Files\JetBrains\CLion 2021.2.2\bin\cmake\win\bin\cmake.exe" -E echo "No interactive CMake dialog available."
 .PHONY : edit_cache
 
 # Special rule for the target edit_cache
@@ -77,7 +77,7 @@ edit_cache/fast: edit_cache
 # Special rule for the target rebuild_cache
 rebuild_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
-	"E:\Program Files\JetBrains\CLion 2021.2.2\bin\cmake\win\bin\cmake.exe" --regenerate-during-build -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
+	"C:\Program Files\JetBrains\CLion 2021.2.2\bin\cmake\win\bin\cmake.exe" --regenerate-during-build -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
 .PHONY : rebuild_cache
 
 # Special rule for the target rebuild_cache
@@ -86,9 +86,9 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\gdari\Desktop\Important\School\GitHub\GitHubProjects\CSCI-460-Operating-Systems\C\ProducerConsumerPThread\cmake-build-debug\CMakeFiles C:\Users\gdari\Desktop\Important\School\GitHub\GitHubProjects\CSCI-460-Operating-Systems\C\ProducerConsumerPThread\cmake-build-debug\\CMakeFiles\progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\gdari\Desktop\School\GitHub\CSCI-460-Operating-Systems\C\ProducerConsumerPThread\cmake-build-debug\CMakeFiles C:\Users\gdari\Desktop\School\GitHub\CSCI-460-Operating-Systems\C\ProducerConsumerPThread\cmake-build-debug\\CMakeFiles\progress.marks
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\gdari\Desktop\Important\School\GitHub\GitHubProjects\CSCI-460-Operating-Systems\C\ProducerConsumerPThread\cmake-build-debug\CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\gdari\Desktop\School\GitHub\CSCI-460-Operating-Systems\C\ProducerConsumerPThread\cmake-build-debug\CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -128,125 +128,29 @@ ProducerConsumerPThread/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\ProducerConsumerPThread.dir\build.make CMakeFiles/ProducerConsumerPThread.dir/build
 .PHONY : ProducerConsumerPThread/fast
 
-consumerTwo.obj: consumerTwo.c.obj
-.PHONY : consumerTwo.obj
+producerConsumerProgram.obj: producerConsumerProgram.c.obj
+.PHONY : producerConsumerProgram.obj
 
 # target to build an object file
-consumerTwo.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\ProducerConsumerPThread.dir\build.make CMakeFiles/ProducerConsumerPThread.dir/consumerTwo.c.obj
-.PHONY : consumerTwo.c.obj
+producerConsumerProgram.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\ProducerConsumerPThread.dir\build.make CMakeFiles/ProducerConsumerPThread.dir/producerConsumerProgram.c.obj
+.PHONY : producerConsumerProgram.c.obj
 
-consumerTwo.i: consumerTwo.c.i
-.PHONY : consumerTwo.i
-
-# target to preprocess a source file
-consumerTwo.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\ProducerConsumerPThread.dir\build.make CMakeFiles/ProducerConsumerPThread.dir/consumerTwo.c.i
-.PHONY : consumerTwo.c.i
-
-consumerTwo.s: consumerTwo.c.s
-.PHONY : consumerTwo.s
-
-# target to generate assembly for a file
-consumerTwo.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\ProducerConsumerPThread.dir\build.make CMakeFiles/ProducerConsumerPThread.dir/consumerTwo.c.s
-.PHONY : consumerTwo.c.s
-
-conumserOne.obj: conumserOne.c.obj
-.PHONY : conumserOne.obj
-
-# target to build an object file
-conumserOne.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\ProducerConsumerPThread.dir\build.make CMakeFiles/ProducerConsumerPThread.dir/conumserOne.c.obj
-.PHONY : conumserOne.c.obj
-
-conumserOne.i: conumserOne.c.i
-.PHONY : conumserOne.i
+producerConsumerProgram.i: producerConsumerProgram.c.i
+.PHONY : producerConsumerProgram.i
 
 # target to preprocess a source file
-conumserOne.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\ProducerConsumerPThread.dir\build.make CMakeFiles/ProducerConsumerPThread.dir/conumserOne.c.i
-.PHONY : conumserOne.c.i
+producerConsumerProgram.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\ProducerConsumerPThread.dir\build.make CMakeFiles/ProducerConsumerPThread.dir/producerConsumerProgram.c.i
+.PHONY : producerConsumerProgram.c.i
 
-conumserOne.s: conumserOne.c.s
-.PHONY : conumserOne.s
-
-# target to generate assembly for a file
-conumserOne.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\ProducerConsumerPThread.dir\build.make CMakeFiles/ProducerConsumerPThread.dir/conumserOne.c.s
-.PHONY : conumserOne.c.s
-
-doublyLinkedList.obj: doublyLinkedList.c.obj
-.PHONY : doublyLinkedList.obj
-
-# target to build an object file
-doublyLinkedList.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\ProducerConsumerPThread.dir\build.make CMakeFiles/ProducerConsumerPThread.dir/doublyLinkedList.c.obj
-.PHONY : doublyLinkedList.c.obj
-
-doublyLinkedList.i: doublyLinkedList.c.i
-.PHONY : doublyLinkedList.i
-
-# target to preprocess a source file
-doublyLinkedList.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\ProducerConsumerPThread.dir\build.make CMakeFiles/ProducerConsumerPThread.dir/doublyLinkedList.c.i
-.PHONY : doublyLinkedList.c.i
-
-doublyLinkedList.s: doublyLinkedList.c.s
-.PHONY : doublyLinkedList.s
+producerConsumerProgram.s: producerConsumerProgram.c.s
+.PHONY : producerConsumerProgram.s
 
 # target to generate assembly for a file
-doublyLinkedList.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\ProducerConsumerPThread.dir\build.make CMakeFiles/ProducerConsumerPThread.dir/doublyLinkedList.c.s
-.PHONY : doublyLinkedList.c.s
-
-producerOne.obj: producerOne.c.obj
-.PHONY : producerOne.obj
-
-# target to build an object file
-producerOne.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\ProducerConsumerPThread.dir\build.make CMakeFiles/ProducerConsumerPThread.dir/producerOne.c.obj
-.PHONY : producerOne.c.obj
-
-producerOne.i: producerOne.c.i
-.PHONY : producerOne.i
-
-# target to preprocess a source file
-producerOne.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\ProducerConsumerPThread.dir\build.make CMakeFiles/ProducerConsumerPThread.dir/producerOne.c.i
-.PHONY : producerOne.c.i
-
-producerOne.s: producerOne.c.s
-.PHONY : producerOne.s
-
-# target to generate assembly for a file
-producerOne.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\ProducerConsumerPThread.dir\build.make CMakeFiles/ProducerConsumerPThread.dir/producerOne.c.s
-.PHONY : producerOne.c.s
-
-producerTwo.obj: producerTwo.c.obj
-.PHONY : producerTwo.obj
-
-# target to build an object file
-producerTwo.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\ProducerConsumerPThread.dir\build.make CMakeFiles/ProducerConsumerPThread.dir/producerTwo.c.obj
-.PHONY : producerTwo.c.obj
-
-producerTwo.i: producerTwo.c.i
-.PHONY : producerTwo.i
-
-# target to preprocess a source file
-producerTwo.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\ProducerConsumerPThread.dir\build.make CMakeFiles/ProducerConsumerPThread.dir/producerTwo.c.i
-.PHONY : producerTwo.c.i
-
-producerTwo.s: producerTwo.c.s
-.PHONY : producerTwo.s
-
-# target to generate assembly for a file
-producerTwo.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\ProducerConsumerPThread.dir\build.make CMakeFiles/ProducerConsumerPThread.dir/producerTwo.c.s
-.PHONY : producerTwo.c.s
+producerConsumerProgram.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\ProducerConsumerPThread.dir\build.make CMakeFiles/ProducerConsumerPThread.dir/producerConsumerProgram.c.s
+.PHONY : producerConsumerProgram.c.s
 
 # Help Target
 help:
@@ -257,21 +161,9 @@ help:
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... ProducerConsumerPThread
-	@echo ... consumerTwo.obj
-	@echo ... consumerTwo.i
-	@echo ... consumerTwo.s
-	@echo ... conumserOne.obj
-	@echo ... conumserOne.i
-	@echo ... conumserOne.s
-	@echo ... doublyLinkedList.obj
-	@echo ... doublyLinkedList.i
-	@echo ... doublyLinkedList.s
-	@echo ... producerOne.obj
-	@echo ... producerOne.i
-	@echo ... producerOne.s
-	@echo ... producerTwo.obj
-	@echo ... producerTwo.i
-	@echo ... producerTwo.s
+	@echo ... producerConsumerProgram.obj
+	@echo ... producerConsumerProgram.i
+	@echo ... producerConsumerProgram.s
 .PHONY : help
 
 
