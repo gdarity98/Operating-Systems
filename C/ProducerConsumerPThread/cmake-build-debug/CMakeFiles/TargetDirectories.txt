@@ -1,3 +1,3 @@
-C:/Users/gdari/Desktop/School/GitHub/CSCI-460-Operating-Systems/C/ProducerConsumerPThread/cmake-build-debug/CMakeFiles/ProducerConsumerPThread.dir
-C:/Users/gdari/Desktop/School/GitHub/CSCI-460-Operating-Systems/C/ProducerConsumerPThread/cmake-build-debug/CMakeFiles/edit_cache.dir
-C:/Users/gdari/Desktop/School/GitHub/CSCI-460-Operating-Systems/C/ProducerConsumerPThread/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+C:/Users/gdari/Desktop/Important/School/GitHub/GitHubProjects/CSCI-460-Operating-Systems/C/ProducerConsumerPThread/cmake-build-debug/CMakeFiles/ProducerConsumerPThread.dir
+C:/Users/gdari/Desktop/Important/School/GitHub/GitHubProjects/CSCI-460-Operating-Systems/C/ProducerConsumerPThread/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/gdari/Desktop/Important/School/GitHub/GitHubProjects/CSCI-460-Operating-Systems/C/ProducerConsumerPThread/cmake-build-debug/CMakeFiles/rebuild_cache.dir

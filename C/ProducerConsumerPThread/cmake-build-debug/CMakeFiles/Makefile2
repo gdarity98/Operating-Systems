@@ -44,19 +44,19 @@ cmake_force:
 SHELL = cmd.exe
 
 # The CMake executable.
-CMAKE_COMMAND = "C:\Program Files\JetBrains\CLion 2021.2.2\bin\cmake\win\bin\cmake.exe"
+CMAKE_COMMAND = "E:\Program Files\JetBrains\CLion 2021.2.2\bin\cmake\win\bin\cmake.exe"
 
 # The command to remove a file.
-RM = "C:\Program Files\JetBrains\CLion 2021.2.2\bin\cmake\win\bin\cmake.exe" -E rm -f
+RM = "E:\Program Files\JetBrains\CLion 2021.2.2\bin\cmake\win\bin\cmake.exe" -E rm -f
 
 # Escaping for special characters.
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = C:\Users\gdari\Desktop\School\GitHub\CSCI-460-Operating-Systems\C\ProducerConsumerPThread
+CMAKE_SOURCE_DIR = C:\Users\gdari\Desktop\Important\School\GitHub\GitHubProjects\CSCI-460-Operating-Systems\C\ProducerConsumerPThread
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = C:\Users\gdari\Desktop\School\GitHub\CSCI-460-Operating-Systems\C\ProducerConsumerPThread\cmake-build-debug
+CMAKE_BINARY_DIR = C:\Users\gdari\Desktop\Important\School\GitHub\GitHubProjects\CSCI-460-Operating-Systems\C\ProducerConsumerPThread\cmake-build-debug
 
 #=============================================================================
 # Directory level rules for the build root directory
@@ -80,14 +80,14 @@ clean: CMakeFiles/ProducerConsumerPThread.dir/clean
 CMakeFiles/ProducerConsumerPThread.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\ProducerConsumerPThread.dir\build.make CMakeFiles/ProducerConsumerPThread.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\ProducerConsumerPThread.dir\build.make CMakeFiles/ProducerConsumerPThread.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\gdari\Desktop\School\GitHub\CSCI-460-Operating-Systems\C\ProducerConsumerPThread\cmake-build-debug\CMakeFiles --progress-num=1,2 "Built target ProducerConsumerPThread"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\gdari\Desktop\Important\School\GitHub\GitHubProjects\CSCI-460-Operating-Systems\C\ProducerConsumerPThread\cmake-build-debug\CMakeFiles --progress-num=1,2 "Built target ProducerConsumerPThread"
 .PHONY : CMakeFiles/ProducerConsumerPThread.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/ProducerConsumerPThread.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\gdari\Desktop\School\GitHub\CSCI-460-Operating-Systems\C\ProducerConsumerPThread\cmake-build-debug\CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\gdari\Desktop\Important\School\GitHub\GitHubProjects\CSCI-460-Operating-Systems\C\ProducerConsumerPThread\cmake-build-debug\CMakeFiles 2
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/ProducerConsumerPThread.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\gdari\Desktop\School\GitHub\CSCI-460-Operating-Systems\C\ProducerConsumerPThread\cmake-build-debug\CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\gdari\Desktop\Important\School\GitHub\GitHubProjects\CSCI-460-Operating-Systems\C\ProducerConsumerPThread\cmake-build-debug\CMakeFiles 0
 .PHONY : CMakeFiles/ProducerConsumerPThread.dir/rule
 
 # Convenience name for target.
